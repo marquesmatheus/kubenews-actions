@@ -53,4 +53,4 @@ jobs:
          with:
            images: matheusmfp/kube-news:${{github.run_number}}
            manifests:
-            /src/k8s/deployment.yaml
+            ./src/k8s/deployment.yaml
